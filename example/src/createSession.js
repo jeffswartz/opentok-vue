@@ -1,4 +1,4 @@
-function createSession(apiKey, sessionId, token, onStreamsUpdated) {
+module.exports = function createSession(apiKey, sessionId, token, onStreamsUpdated) {
   let streams = [];
 
   let onStreamCreated = event => {

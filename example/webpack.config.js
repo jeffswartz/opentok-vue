@@ -9,7 +9,7 @@ const opentok = new OpenTok(config.OT_API_KEY, config.OT_API_SECRET);
 
 module.exports = {
   entry: {
-    index: './src/index.js',
+    index: './src/',
   },
   output: {
     path: './js/',
